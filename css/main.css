@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+footer {
+    margin-top: auto;
+    background-color: #D1DEDE;
+    padding: 20px;
+    text-align: center;
+}
+.logo-bg {
+	background-color: #06D6A0;
+}
+.mini-bar {
+	background-color: #1D201F;
+	color: #D1DEDE;
+}
+.my-button {
+  font-weight: bold;
+  background-color: #F05524;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.my-button:hover {
+  background-color: #F89920;
+}
+.my-button-left {
+  font-weight: bold;
+  background-color: #F7BC19;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  float: left;
+}
+
+.my-button:hover-left {
+  background-color: #F89920;
+}
